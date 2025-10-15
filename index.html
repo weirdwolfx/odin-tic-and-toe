@@ -5,10 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tic Tac Toe</title>
     <script src="./main.js" defer></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="start-menu"></div>
-    <div id="choose-mode"></div>
-    <div id="play-game"></div>
+    <div id="start-game">
+        <button type="button" class="start-btn">Start game</button>
+    </div>
+    <div id="choose-mode">
+        <button type="button" class="mode-btn computer-btn">Computer</button>
+        <button type="button" class="mode-btn human-btn">Human</button>
+    </div>
+    <div id="choose-difficulty">
+        <button type="button" class="level-btn easy-btn" id="1">Easy</button>
+        <button type="button" class="level-btn medium-btn" id="2">Medium</button>
+        <button type="button" class="level-btn hard-btn" id="3">Hard</button>
+    </div>
+    <div id="play-game">
+        <button type="button" class="back-btn">Back</button>
+    </div>
 </body>
 </html>
